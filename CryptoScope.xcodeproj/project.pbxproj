@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB055F922C19FDAB000C8B75 /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB055F912C19FDAB000C8B75 /* CoinModel.swift */; };
 		AB60DC1F2BE3F28F0078C1DC /* CryptoScopeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB60DC1E2BE3F28F0078C1DC /* CryptoScopeApp.swift */; };
 		AB60DC212BE3F28F0078C1DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB60DC202BE3F28F0078C1DC /* ContentView.swift */; };
 		AB60DC232BE3F2910078C1DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB60DC222BE3F2910078C1DC /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB055F912C19FDAB000C8B75 /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
 		AB60DC1B2BE3F28F0078C1DC /* CryptoScope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoScope.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB60DC1E2BE3F28F0078C1DC /* CryptoScopeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoScopeApp.swift; sourceTree = "<group>"; };
 		AB60DC202BE3F28F0078C1DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,6 +42,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB055F902C19FD88000C8B75 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AB055F912C19FDAB000C8B75 /* CoinModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		AB60DC122BE3F28F0078C1DC = {
 			isa = PBXGroup;
 			children = (
@@ -60,8 +70,9 @@
 			isa = PBXGroup;
 			children = (
 				AB60DC2C2BE41E0F0078C1DC /* Extensions */,
-				AB60DC1E2BE3F28F0078C1DC /* CryptoScopeApp.swift */,
+				AB055F902C19FD88000C8B75 /* Models */,
 				AB7D08EB2BE4E4DF00EE5D19 /* Core */,
+				AB60DC1E2BE3F28F0078C1DC /* CryptoScopeApp.swift */,
 				AB60DC202BE3F28F0078C1DC /* ContentView.swift */,
 				AB60DC222BE3F2910078C1DC /* Assets.xcassets */,
 				AB60DC242BE3F2910078C1DC /* Preview Content */,
@@ -211,6 +222,7 @@
 				AB7D08F42BE4E79500EE5D19 /* CircleButtonView.swift in Sources */,
 				AB60DC2E2BE41E190078C1DC /* Color.swift in Sources */,
 				AB7D08F62BE4ED4600EE5D19 /* CircleButtonAnimationView.swift in Sources */,
+				AB055F922C19FDAB000C8B75 /* CoinModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
